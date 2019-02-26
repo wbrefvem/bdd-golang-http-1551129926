@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.63.250.219:5000/wbrefvem/bdd-golang-http-1551129926
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: bdd-golang-http-1551129926
